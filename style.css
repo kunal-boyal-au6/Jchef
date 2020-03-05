@@ -1,0 +1,71 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.page01Form{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    
+}
+.join{
+    margin-left: 7rem;
+}
+
+.registerPageHead{
+    text-align: center;
+    color: #1B3F9E;
+    margin-top: 2rem;
+
+}
+
+.registerPageForm{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.jumbotron{
+    height: 39rem;
+    text-align: center;
+}
+
+.cardImg{
+    width: 286px;
+    height: 190px;
+}
+
+
+#vege{
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    left: 0;
+    top: 30rem;
+
+}
+
+#cup{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    right:0 ;
+    top: 10rem;
+}
+
+#fruit{
+    position: absolute;
+    height: 150px;
+    width: 100px;
+    right:0 ;
+    top: 37rem;
+}
+
+#maker{
+    position: fixed;
+    width: 100x;
+    height: 20px;
+    right: 1rem;
+    bottom: 1rem;
+}
