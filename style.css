@@ -37,31 +37,6 @@ body{
 }
 
 
-#vege{
-    position: absolute;
-    height: 200px;
-    width: 150px;
-    left: 0;
-    top: 30rem;
-
-}
-
-#cup{
-    position: absolute;
-    height: 500px;
-    width: 500px;
-    right:0 ;
-    top: 10rem;
-}
-
-#fruit{
-    position: absolute;
-    height: 150px;
-    width: 100px;
-    right:0 ;
-    top: 37rem;
-}
-
 #maker{
     position: fixed;
     width: 100x;

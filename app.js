@@ -79,27 +79,6 @@
             if(password !== confirmPassword){
                 alert('Passwords did not match')
             }
-
-            var baseUrl = "http://8e1152d1.ngrok.io"
-            var registerUrl = baseUrl += "/users/register"
-            console.log(registerUrl)
-            fetch(registerUrl,{
-                method:'POST',
-                body:JSON.stringify({
-                    name:name,
-                    email:email,
-                    password:password
-                }),
-                headers:{'Content-Type':'application/json'}
-            }).then(function(response){
-                return response.json()
-            })
-            .then(function(filteredData){
-
-            })
-            .catch(function(err){
-                console.log(err)
-            })
         })
     })
 
